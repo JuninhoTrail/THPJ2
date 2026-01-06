@@ -1,0 +1,260 @@
+@font-face {
+	font-family: 'Google Sans';
+	font-style: normal;
+	font-weight: 400 700;
+	font-display: optional;
+	src: url(//fonts.gstatic.com/s/googlesans/v29/4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2)format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@view-transition {
+	navigation: none;
+}
+
+h1,
+ol,
+ul,
+li,
+button {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #0e0c0c;
+	color: #0099ff;
+	font-family: 'Google Sans', Arial, sans-serif;
+	margin: 10px;
+	padding: 0;
+}
+
+.search-container {
+	display: flex;
+	align-items: center;
+	max-width: 600px;
+	margin: 20px auto;
+	text-align: center;
+	background-color: transparent;
+}
+
+.search-bar {
+	display: flex;
+	align-items: center;
+	flex: 1;
+	width: 100%;
+	padding: 15px 0px 15px 0px;
+	font-size: 18px;
+	color: #0099ff;
+	border: 2px solid #0099ff;
+	border-radius: 50px;
+	background-color: transparent;
+	background-image: url('https://png.pngtree.com/png-clipart/20190614/original/pngtree-magnifying-glass-search-icon-graphic-element-png-image_3786415.jpg');
+	background-position: 15px center;
+	background-repeat: no-repeat;
+	background-size: 25px;
+	outline: none;
+	text-align: center;
+}
+
+.search-bar:focus {
+	border-color: #0099ff;
+	box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.logo {
+	text-align: center;
+	margin-top: 250px;
+}
+
+.gNO89b {
+	background-color: #000000;
+	border: 1px solid #0099ff;
+	border-radius: 4px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+	color: #0099ff;
+	cursor: pointer;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	height: 36px;
+	line-height: 27px;
+	margin: 11px 4px;
+	padding: 0 16px;
+	text-align: center;
+}
+
+.RNmpXc {
+	background-color: #000000;
+	border: 1px solid #0099ff;
+	border-radius: 4px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+	color: #0099ff;
+	cursor: pointer;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	height: 36px;
+	line-height: 27px;
+	margin: 11px 4px;
+	padding: 0 16px;
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+}
+
+.search-bar::placeholder {
+	color: #0099ff;
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+}
+
+.header {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 6px 30px;
+	height: 48px;
+	box-sizing: border-box;
+}
+
+.links a {
+	color: rgba(0, 153, 255, 0.87) !important;
+	text-decoration: none;
+	margin: 0 10px;
+	font-weight: 400;
+}
+
+.links a:hover {
+	text-decoration: underline;
+}
+
+.signin {
+	background-color: #000000;
+	color: #0099ff !important;
+	border: none;
+	border-radius: 4px;
+	padding: 9px 23px;
+	font-size: 14px;
+	font-weight: 500;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.signin:hover {
+	background-color: #3436b6;
+}
+
+@media (max-width: 600px) {
+	.header {
+		padding: 0px 15px;
+	}
+
+	.links a {
+		margin: 10px 10px;
+		font-size: 12px;
+	}
+}
+
+.apps-link {
+	padding: 30px;
+	margin-left: -10px;
+	margin-right: 30px;
+	display: inline-block;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.apps-icon {
+	fill: #0099ff !important;
+	opacity: 1;
+}
+
+.apps-link:hover .apps-icon {
+	opacity: 1;
+	fill: #ffffff;
+}
+
+.MV3Tnb {
+	color: #0099ff !important;
+	text-decoration: none;
+	font-size: 14px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	color: #0099ff !important;
+	text-decoration: none;
+	font-size: 17px;
+	padding: 10px;
+}
+
+.bouton-store {
+	position: absolute;
+	top: 20px;
+	left: 100px;
+	margin-left: 15px 10px;
+}
+
+.uU7dJb {
+	position: fixed;
+	bottom: 60px;
+	left: 20px;
+	color: rgb(255, 255, 255);
+	padding: 10px 20px;
+	border-radius: 24px;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	z-index: 1000;
+}
+
+.pied-de-page {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #000000;
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 20px;
+	box-sizing: border-box;
+	border-top: 1px solid #0099ff;
+
+}
+
+.pied-de-page a {
+	color: #bdc1c6;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	margin: 0 12px;
+}
+
+.pied-de-page a:hover {
+	text-decoration: underline;
+}
+
+.lien-sustainability {
+	color: #36bd4c !important;
+	font-weight: bold;
+	position: fixed;
+	bottom: 70px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.groupe-liens,
+.groupe-centre {
+	display: flex;
+	align-items: center;
+}
+
+.groupe-liens {
+	display: flex;
+	gap: 50px;
+}
+
+.material-icons {
+  color: #0099ff;         
+  padding: 15px 0px 15px 0px;
+	margin-right: -50px;     
+  font-size: 20px;
+}
